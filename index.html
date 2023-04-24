@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="m-0 p-0 box-border">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="/dist/output.css" rel="stylesheet">
+    <title>Tailwind Example</title>
+    <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body>
-    
+<body class="bg-lime-100 h-screen w-screen flex justify-center items-center"> 
+    <div class="container my-24 px-6 mx-auto">
+        <section class="mb-32 text-gray-800 text-center lg:text-left">
+          <h2 class="text-3xl font-bold mb-12 text-center">Meine bisherigen Projekte bei Supercode</h2>
+          <div class="grid lg:grid-cols-3 gap-x-6">
+            <div class="mb-12 lg:mb-0">
+              <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+                style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img src="./assets/img/2023-04-24-16-06-alpayc.github.io.png" class="w-full" />
+                <a href="https://alpayc.github.io/Design-Onlineshop/">
+                  <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+              <h5 class="text-lg font-bold mb-3">The Design Shop</h5>
+              <div class="mb-3 text-red-600 font-medium text-sm flex items-center justify-center lg:justify-start">
+                <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                  <path fill="currentColor"
+                    d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z" />
+                  </svg>Einsatz von Grid
+              </div>
+              <p class="text-gray-500">
+                Ich habe als Webentwickler einen Onlineshop erstellt, der mithilfe von HTML und CSS Grid gestaltet wurde. Ich habe die Struktur der Website mit HTML definiert und das Layout mit CSS Grid gestaltet. Durch die Nutzung von CSS Grid konnte ich die Elemente der Website in einem Raster anordnen und so ein ansprechendes Design erstellen. Der Onlineshop beinhaltet Artikel aus dem Amazon-Shop, was den Kunden eine breite Auswahl an Produkten bietet.
+              </p>
+            </div>
+      
+            <div class="mb-12 lg:mb-0">
+              <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+                style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img src="./assets/img/2023-04-24-16-03-alpayc.github.io.png" class="w-full" />
+                <a href="https://alpayc.github.io/Project_California_Calling/">
+                  <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+      
+              <h5 class="text-lg font-bold mb-3">California Calling</h5>
+              <div class="mb-3 text-blue-600 font-medium text-sm flex items-center justify-center lg:justify-start">
+                <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M437.2 403.5L320 215V64h8c13.3 0 24-10.7 24-24V24c0-13.3-10.7-24-24-24H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h8v151L10.8 403.5C-18.5 450.6 15.3 512 70.9 512h306.2c55.7 0 89.4-61.5 60.1-108.5zM137.9 320l48.2-77.6c3.7-5.2 5.8-11.6 5.8-18.4V64h64v160c0 6.9 2.2 13.2 5.8 18.4l48.2 77.6h-172z" />
+                  </svg>Einsatz von SASS
+              </div>
+              <p class="text-gray-500">
+                Als Webentwickler habe ich eine Landingpage erstellt, die sich der Rettung von Bären widmet. Das Design wurde in Figma erstellt und von mir 1:1 nachgebaut. Dabei habe ich die Technologien SCSS und SASS genutzt, um die Stylesheets effizienter und übersichtlicher zu gestalten. SCSS und SASS erlauben es, CSS-Code modularer und strukturierter zu schreiben und so die Wartung und Erweiterung der Website zu erleichtern. Durch das ansprechende Design und die Nutzung von SCSS und SASS habe ich eine Landingpage geschaffen, die das Anliegen der Rettung von Bären unterstützt und die Benutzer dazu ermutigt, sich für diese wichtige Sache einzusetzen.
+              </p>
+            </div>
+      
+            <div class="mb-0">
+              <div class="shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover mb-6"
+                style="background-position: 50%;" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img src="./assets/img/2023-04-24-16-04-alpayc.github.io.png" class="w-full" />
+                <a href="#!">
+                  <div
+                    class="mask absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"
+                    style="background-color: rgba(251, 251, 251, 0.2)"></div>
+                </a>
+              </div>
+      
+              <h5 class="text-lg font-bold mb-3">Fashion Pashion</h5>
+              <div class="mb-3 text-yellow-500 font-medium text-sm flex items-center justify-center lg:justify-start">
+                <svg class="w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z" />
+                  </svg>Einsatz von Grid, Flex, Position
+              </div>
+              <p class="text-gray-500">
+                Bei der Erstellung des Onlineshops habe ich alle bekannten Module aus CSS angewendet, um die Gestaltung und das Layout der Website zu optimieren. Dabei habe ich auch besonderes Augenmerk darauf gelegt, dass der Onlineshop responsiv ist und auf verschiedenen Geräten eine optimale Darstellung bietet. Durch meine Arbeit als Webentwickler habe ich einen funktionalen und ansprechenden Onlineshop geschaffen, der es den Benutzern ermöglicht, einfach und intuitiv durch das Sortiment zu navigieren und Produkte zu kaufen.
+              </p>
+            </div>
+          </div>
+      
+        </section> 
+      </div>
 </body>
 </html>
